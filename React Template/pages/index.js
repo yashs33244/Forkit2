@@ -42,17 +42,16 @@ const Index = () => {
             <div className="col-lg-7 wow fadeInUp delay-0-2s">
               <div className="section-title mb-20">
                 <span className="sub-title mb-20">
-                  Popular Foods and Vegetables
+                  Recipes Based On
                 </span>
-                <h2>Quality Fruits &amp; Vegetables</h2>
+                <h2>Popular Ingredients: From Veggies to Meat!
+                </h2>
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp delay-0-4s">
               <div className="text mb-20">
                 <p>
-                  On the other hand we denounce with righteou indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment so blinded by desire
+                  Enjoy a variety of simple yet delicious recipes featuring popular ingredients. From classic comfort foods to fresh vegetable dishes, these recipes are sure to please your palate without overwhelming your kitchen.
                 </p>
               </div>
             </div>
@@ -81,7 +80,7 @@ const Index = () => {
                 <img src="assets/images/category/icon3.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Sea Fish’s</Link>
+                <Link href="/services">Sea Food</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -99,7 +98,7 @@ const Index = () => {
                 <img src="assets/images/category/icon5.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Chiken Egg</Link>
+                <Link href="/services">Chicken Egg</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
