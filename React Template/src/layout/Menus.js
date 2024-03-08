@@ -4,13 +4,7 @@ import { Fragment } from "react";
 export const Home = () => (
   <Fragment>
     <li>
-      <Link href="/">Home One</Link>
-    </li>
-    <li>
-      <Link href="/index2">Home Two</Link>
-    </li>
-    <li>
-      <Link href="/index3">Home Three</Link>
+      <Link href="/">Home</Link>
     </li>
   </Fragment>
 );
@@ -19,29 +13,6 @@ export const PagesDasktop = () => (
   <Fragment>
     <li>
       <Link href="/about">About us</Link>
-    </li>
-    <li className="dropdown">
-      <a href="#">services</a>
-      <ul>
-        <li>
-          <Link href="/services">all services</Link>
-        </li>
-        <li>
-          <Link href="/service-details">service details</Link>
-        </li>
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
-    </li>
-    <li>
-      <Link href="/faqs">faqs</Link>
-    </li>
-    <li>
-      <Link href="/farmers">Farmers</Link>
-    </li>
-    <li>
-      <Link href="/404">404 error</Link>
     </li>
   </Fragment>
 );

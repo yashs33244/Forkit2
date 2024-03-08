@@ -5,18 +5,8 @@ import { Blog, Contact, Home, PagesDasktop, Portfolio, Shop } from "./Menus";
 import MobileMenu from "./MobileMenu";
 
 const Header = ({ header }) => {
-  switch (header) {
-    case 1:
-      return <Header1 />;
-    case 2:
-      return <Header2 />;
-    case 3:
-      return <Header3 />;
-
-    default:
       return <DefaultHeader />;
   }
-};
 export default Header;
 
 const SearchBtn = () => {
@@ -43,7 +33,7 @@ const SearchBtn = () => {
 };
 const DaskTopMenu = () => (
   <ul className="navigation clearfix d-none d-lg-flex">
-    <li className="dropdown">
+    {/* <li className="dropdown">
       <a href="#">Home</a>
       <ul>
         <Home />
@@ -51,16 +41,18 @@ const DaskTopMenu = () => (
       <div className="dropdown-btn">
         <span className="fas fa-chevron-down" />
       </div>
-    </li>
-    <li className="dropdown">
+    </li> */}
+    <Home />
+    <PagesDasktop />
+    {/* <li className="dropdown">
       <a href="#">pages</a>
       <ul>
-        <PagesDasktop />
+
       </ul>
       <div className="dropdown-btn">
         <span className="fas fa-chevron-down" />
       </div>
-    </li>
+    </li> */}
     <li className="dropdown">
       <a href="#">portfolio</a>
       <ul>
@@ -132,54 +124,7 @@ const Nav = () => {
 
 const DefaultHeader = () => (
   <header className="main-header">
-    <div className="header-top-wrap bg-light-green text-white py-10">
-      <div className="container-fluid">
-        <div className="header-top">
-          <div className="row">
-            <div className="col-xl-7 col-lg-6">
-              <div className="top-left">
-                <ul>
-                  <li>
-                    <i className="far fa-envelope" /> <b>Email Us :</b>{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
-                  </li>
-                  <li>
-                    <i className="far fa-clock" /> <b>Working Hours :</b> Monday
-                    - Friday, 08 am - 05 pm
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-5 col-lg-6">
-              <div className="top-right text-lg-right">
-                <ul>
-                  <li>
-                    <i className="far fa-phone" /> <b>Call :</b>{" "}
-                    <a href="callto:+012(345)67899">+012 (345) 678 99</a>
-                  </li>
-                  <li>
-                    <div className="social-style-one">
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-youtube" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
     {/*Header-Upper*/}
     <div className="header-upper">
       <div className="container-fluid clearfix">
