@@ -226,12 +226,11 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="offer-banner-item color-two wow fadeInUp delay-0-2s">
                 <div className="content">
-                  <span className="sub-title">35% Off Foods</span>
-                  <h4>Organic Vegetables</h4>
-                  <p>Best Foods For Your Family</p>
-                  <Link href="/shop-grid">
+                  <h4>What do you want to make?</h4>
+                  <p>Get accurate caloris count for your food here</p>
+                  <Link href="/check-calories">
                     <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
+                      Get info <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
@@ -251,12 +250,11 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="offer-banner-item wow fadeInUp delay-0-4s">
                 <div className="content">
-                  <span className="sub-title">35% Off Foods</span>
-                  <h4>Fresh Organic Fruits</h4>
-                  <p>Best Foods For Your Family</p>
-                  <Link href="/shop-grid">
+                  <h4>What is best for you to Eat?</h4>
+                  <p>Best Foods For Your Health</p>
+                  <Link href="/check-calories">
                     <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
+                      Search <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
@@ -276,12 +274,11 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="offer-banner-item color-three wow fadeInUp delay-0-6s">
                 <div className="content">
-                  <span className="sub-title">35% Off Foods</span>
-                  <h4>Ripe Strawberries</h4>
-                  <p>Best Foods For Your Family</p>
+                  <h4>Check Ingredients</h4>
+                  <p>What ingredients does your food has? </p>
                   <Link href="/shop-grid">
                     <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
+                      Check <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
