@@ -466,25 +466,6 @@ const Index = () => {
         </div>
       </section>
       {/* Product Section End */}
-      {/* Video Area Start */}
-      <div className="video-area">
-        <div className="container">
-          <div
-            className="video-inner wow fadeInUp delay-0-2s"
-            style={{ backgroundImage: "url(assets/images/video/video-bg.jpg)" }}
-          >
-            <i className="flaticon-leaf-1" />
-            <span className="video-text">Watch Videos</span>
-            <a
-              href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-              className="mfp-iframe video-play"
-            >
-              <i className="fas fa-play" />
-            </a>
-          </div>
-        </div>
-      </div>
-      {/* Video Area End */}
       {/* Special Offer Start */}
       <section className="special-offer bg-lighter pt-250 pb-80">
         <div className="special-offer-content text-center py-130 rpy-100 wow fadeInUp delay-0-2s">
